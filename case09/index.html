@@ -20,14 +20,6 @@
 		<div id="container">
 			<div id="flexCon">
 				<div class="flex-row">
-					<div class="flex-cell flex-cell-l">
-						<div class="chart-wrapper">
-							<h3 class="chart-title">CP排行Top10</h3>
-							<div class="chart-div" id="rankChart">
-								<div class="chart-loader"><div class="loader"></div></div>
-							</div>
-						</div>
-					</div>
 					<div class="flex-cell flex-cell-c" style="padding-right:0;">
 						<div class="chart-wrapper">
 							<h3 class="chart-title">统计数据</h3>
@@ -44,20 +36,18 @@
 											<p><span id="listedSecurity">0</span></p>
 											<p>计划推送数</p>
 										</td>
-									</tr>
-									<tr>
 										<th><img src="img/icon-03.png" /></th>
 										<td>
 											<p><span id="totalMarket">0</span></p>
 											<p>已推送数</p>
 										</td>
+									</tr>
+									<tr>
 										<th><img src="img/icon-04.png" /></th>
 										<td>
 											<p><span id="circulationMarket">0</span></p>
 											<p>下发数</p>
 										</td>
-									</tr>
-									<tr>
 										<th><img src="img/icon-05.png" /></th>
 										<td>
 											<p><span id="shRatio">0</span></p>
@@ -80,6 +70,11 @@
 											<p><span id="szRatio">0</span></p>
 											<p>最高在线设备数</p>
 										</td>
+										<th><img src="img/icon-01.png" /></th>
+										<td>
+											<p><span id="szRatio">0</span></p>
+											<p>最高在线设备数</p>
+										</td>
 									</tr>
 								</table>
 							</div>
@@ -93,7 +88,7 @@
 							</div>
 						</div>
 					</div> -->
-					<div class="flex-cell flex-cell-l">
+					<div class="flex-cell flex-cell-r">
 						<div class="chart-wrapper">
 							<h3 class="chart-title">关键词排行Top10</h3>
 							<div class="chart-div" id="rankChart2">
@@ -103,10 +98,18 @@
 					</div>
 				</div>
 				<div class="flex-row">
-					<div class="flex-cell flex-cell-lc" style="padding-bottom:0;">
+					<div class="flex-cell flex-cell-l" style="padding-bottom:0;">
 						<div class="chart-wrapper">
-							<h3 class="chart-title">QPS</h3>
+							<h3 class="chart-title">下发数</h3>
 							<div class="chart-div" id="trendChart">
+								<div class="chart-loader"><div class="loader"></div></div>
+							</div>
+						</div>
+					</div>
+					<div class="flex-cell flex-cell-r">
+						<div class="chart-wrapper">
+							<h3 class="chart-title">CP排行Top10</h3>
+							<div class="chart-div" id="rankChart">
 								<div class="chart-loader"><div class="loader"></div></div>
 							</div>
 						</div>
@@ -119,7 +122,7 @@
 							</div>
 						</div>
 					</div> -->
-					<div class="flex-cell flex-cell-r" style="padding-left:0;">
+					<div class="flex-cell flex-cell-c" style="padding-left:0;">
 						<div class="chart-wrapper">
 							<h3 class="chart-title">关键词</h3>
 							<div class="chart-div" id="relationChart">
